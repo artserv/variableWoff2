@@ -1,0 +1,84 @@
+@font-face {
+   font-family: 'Piazzolla-TrueType';
+   src: url('Piazzolla-Italic-VariableFont_opszwght.ttf');
+   src: url('Piazzolla-VariableFont_opszwght.ttf');
+   font-weight: 100 900;
+}
+
+@font-face {
+   font-family: "Piazzolla-woff2";
+   src: url("Piazzolla-Italic-VariableFont_opsz,wght.woff2");
+   src: url("Piazzolla-VariableFont_opsz,wght.woff2");
+   font-weight: 100 900;
+}
+
+h1 {
+   font: 700 3rem/4rem "Piazzolla-TrueType";
+}
+
+.woff2 {
+   background-color: #ffeedd;
+   color: #003366;
+}
+
+[class ^="h2t"] {
+   font: 600 2rem/3rem "Piazzolla-TrueType";
+}
+
+[class ^="h2w"] {
+   font: 600 2rem/3rem "Piazzolla-woff2";
+   background-color: #ffddbb;
+}
+
+p {
+   font-size: 1.5rem;
+}
+
+[class^="t-"] {
+   font-family: "Piazzolla-TrueType";
+}
+
+[class^="w-"] {
+   font-family: "Piazzolla-woff2";
+}
+
+[class$="100"] {
+   font-weight: 100;
+}
+
+[class$="200"] {
+   font-weight: 200;
+}
+
+[class$="300"] {
+   font-weight: 300;
+}
+
+[class$="400"] {
+   font-weight: 400;
+}
+
+[class$="500"] {
+   font-weight: 500;
+}
+
+[class$="600"] {
+   font-weight: 600;
+}
+
+[class$="700"] {
+   font-weight: 700;
+}
+
+[class$="800"] {
+   font-weight: 800;
+}
+
+[class$="900"] {
+   font-weight: 900;
+}
+
+[class$="ital"] {
+   font-style: italic;
+   font-weight: 400;
+}
